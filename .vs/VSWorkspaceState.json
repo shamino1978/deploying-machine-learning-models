@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\demo_env",
+    "\\demo_env\\Include",
+    "\\packages",
+    "\\packages\\ml_api",
+    "\\packages\\ml_api\\tests",
+    "\\packages\\regression_model"
+  ],
+  "SelectedNode": "\\packages\\regression_model\\tox.ini",
+  "PreviewInSolutionExplorer": false
+}
