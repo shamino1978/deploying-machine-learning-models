@@ -117,7 +117,9 @@ def validate_inputs(input_data):
     """Check prediction inputs against schema."""
 
     # set many=True to allow passing in a list
-    schema = HouseDataRequestSchema(strict=True, many=True)
+    schema = HouseDataRequestSchema(many=True)
+    #schema = HouseDataRequestSchema(strict=True, many=True)
+
 
     # convert syntax error field names (beginning with numbers)
     for dict in input_data:
